@@ -57,14 +57,16 @@ We used the following open source tools for this workshop:
 - magic: This is a open source IC layout design software. The software contains the basic blocks required to build a realizable IC.
 <a name="Spec"></a>
 ## 6. Specifications of the PLL
-- Corner = TT (Typical Typical)
-- Supply = 1.8V
-- Temperature = Room Temperature (~25C)
-- VCO Mode and PLL Mode
-- Input = F<sub>min</sub> = 5MHz; F<sub>max</sub> = 12.5MHz
-- Clock Multplier PLL with a single Multiplier = 8x
-- Jitter(RMS) < ~20ns
-- Duty Cycle = 50%
+|Parameter|Value|
+|--------------|--------------|
+|Corner|TT (Typical Typical)|
+|Supply|1.8V|
+|Temperature|Room Temperature (~25C)|
+|Mode|VCO Mode and PLL Mode|
+|Input|F<sub>min</sub> = 5MHz; F<sub>max</sub> = 12.5MHz|
+|Multiplier|8x|
+|Jitter(RMS)|< ~20ns|
+|Duty Cycle|50%|
 
 ## Day 2: Circuit Design & Simulations
 <a name="Prelay"></a>
